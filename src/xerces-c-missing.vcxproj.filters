@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Temp\xerces-c-3.2.3\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\stricmp.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\stricmp.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\strnicmp.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\strnicmp.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\towlower.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\towlower.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\towupper.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\towupper.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{973941AE-7243-3A9A-84E2-796B84227E3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A096C836-601E-3246-8CEA-746CF794DEE2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+E:/Temp/xerces-c-3.2.3/src/CMakeLists.txt
+E:/Temp/xerces-c-3.2.3/src/XercesCConfig.cmake.in
+E:/Temp/xerces-c-3.2.3/src/xercesc/util/version.rc.cmake.in

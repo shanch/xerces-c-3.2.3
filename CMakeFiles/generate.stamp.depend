@@ -1,0 +1,71 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/SelectLibraryConfigurations.cmake
+E:/Temp/xerces-c-3.2.3/CMakeFiles/3.17.1/CMakeCCompiler.cmake
+E:/Temp/xerces-c-3.2.3/CMakeFiles/3.17.1/CMakeCXXCompiler.cmake
+E:/Temp/xerces-c-3.2.3/CMakeFiles/3.17.1/CMakeRCCompiler.cmake
+E:/Temp/xerces-c-3.2.3/CMakeFiles/3.17.1/CMakeSystem.cmake
+E:/Temp/xerces-c-3.2.3/CMakeLists.txt
+E:/Temp/xerces-c-3.2.3/cmake/FindICU.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesBool.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesConst.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesDLL.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesFileMgrSelection.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesFunctions.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesICU.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesIconvConst.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesIncludes.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesInline.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesIntTypes.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesLFS.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesLString.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesMFC.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesMsgLoaderSelection.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesMutexMgrSelection.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesNamespaces.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesNetAccessorSelection.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesOperatorDelete.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesPathDelimiters.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesPathMax.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesSSE2.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesStdLibs.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesStdNamespace.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesTranscoderSelection.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesVolatile.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesWChar.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesWarnings.cmake
+E:/Temp/xerces-c-3.2.3/cmake/XercesXMLCh.cmake
+E:/Temp/xerces-c-3.2.3/config.h.cmake.in
+E:/Temp/xerces-c-3.2.3/doc/style/dtd/entities.ent.in
+E:/Temp/xerces-c-3.2.3/src/xercesc/util/XercesVersion.hpp.cmake.in
+E:/Temp/xerces-c-3.2.3/src/xercesc/util/Xerces_autoconf_config.hpp.cmake.in
+E:/Temp/xerces-c-3.2.3/xerces-c.pc.in

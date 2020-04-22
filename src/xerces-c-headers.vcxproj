@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EDDB6B48-635E-32D8-9036-2090899B1AB6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>xerces-c-headers</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Temp\xerces-c-3.2.3;E:\Temp\xerces-c-3.2.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Temp\xerces-c-3.2.3;E:\Temp\xerces-c-3.2.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Temp\xerces-c-3.2.3;E:\Temp\xerces-c-3.2.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Temp\xerces-c-3.2.3;E:\Temp\xerces-c-3.2.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Temp\xerces-c-3.2.3\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Temp/xerces-c-3.2.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Temp/xerces-c-3.2.3 -BE:/Temp/xerces-c-3.2.3 --check-stamp-file E:/Temp/xerces-c-3.2.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;E:\Temp\xerces-c-3.2.3\src\XercesCConfig.cmake.in;E:\Temp\xerces-c-3.2.3\src\xercesc\util\version.rc.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Temp\xerces-c-3.2.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Temp/xerces-c-3.2.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Temp/xerces-c-3.2.3 -BE:/Temp/xerces-c-3.2.3 --check-stamp-file E:/Temp/xerces-c-3.2.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;E:\Temp\xerces-c-3.2.3\src\XercesCConfig.cmake.in;E:\Temp\xerces-c-3.2.3\src\xercesc\util\version.rc.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Temp\xerces-c-3.2.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Temp/xerces-c-3.2.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Temp/xerces-c-3.2.3 -BE:/Temp/xerces-c-3.2.3 --check-stamp-file E:/Temp/xerces-c-3.2.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;E:\Temp\xerces-c-3.2.3\src\XercesCConfig.cmake.in;E:\Temp\xerces-c-3.2.3\src\xercesc\util\version.rc.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Temp\xerces-c-3.2.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Temp/xerces-c-3.2.3/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Temp/xerces-c-3.2.3 -BE:/Temp/xerces-c-3.2.3 --check-stamp-file E:/Temp/xerces-c-3.2.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;E:\Temp\xerces-c-3.2.3\src\XercesCConfig.cmake.in;E:\Temp\xerces-c-3.2.3\src\xercesc\util\version.rc.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Temp\xerces-c-3.2.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ArrayIndexOutOfBoundsException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Base64.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BaseRefVectorOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BaseRefVectorOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BinFileInputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BinInputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BinMemInputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BitOps.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\BitSet.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\CountedPointer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\CountedPointer.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\DefaultPanicHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\EmptyStackException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\EncodingValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\FlagJanitor.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\FlagJanitor.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Hashers.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Hash2KeysSetOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Hash2KeysSetOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\HexBin.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\IllegalArgumentException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\InvalidCastException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\IOException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Janitor.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Janitor.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\KeyRefPair.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\KeyRefPair.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\KeyValuePair.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\KeyValuePair.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\KVStringPair.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Mutexes.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\LogicalPath.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NameIdPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NameIdPool.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NoSuchElementException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NullPointerException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NumberFormatException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\OutOfMemoryException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\PanicHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ParseException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\PlatformUtils.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\PSVIUni.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\QName.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefArrayOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefArrayOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefArrayVectorOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefArrayVectorOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefHash2KeysTableOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefHash2KeysTableOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefHash3KeysIdPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefHash3KeysIdPool.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefHashTableOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefHashTableOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefStackOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefStackOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefVectorOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RefVectorOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\ASCIIRangeFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\BlockRangeFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\BMPattern.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\CharToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\ClosureToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\ConcatToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\Match.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\Op.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\OpFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\ParenToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\ParserForXMLSchema.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RangeFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RangeToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RangeTokenMap.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RegularExpression.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RegxDefs.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RegxParser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\RegxUtil.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\StringToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\Token.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\TokenFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\TokenInc.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\UniCharTable.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\UnicodeRangeFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\UnionToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\XMLRangeFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\regx\XMLUniCharacter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\RuntimeException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\SchemaDateTimeException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\SecurityManager.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\StringPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\SynchronizedStringPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\TranscodingException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\TransENameMap.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\TransENameMap.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\TransService.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\UnexpectedEOFException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\UnsupportedEncodingException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\UTFDataFormatException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueArrayOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueArrayOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueHashTableOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueHashTableOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueStackOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueStackOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueVectorOf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\ValueVectorOf.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XercesDefs.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMemory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XML256TableTranscoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XML88591Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLAbstractDoubleFloat.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLASCIITranscoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLBigDecimal.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLBigInteger.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLChar.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLChTranscoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLDateTime.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLDOMMsg.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLDouble.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLEBCDICTranscoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLEntityResolver.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLEnumerator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLExceptMsgs.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLFileMgr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLFloat.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLIBM1047Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLIBM1140Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLInitializer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLInteger.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLMutexMgr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLMsgLoader.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLNetAccessor.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLNumber.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLResourceIdentifier.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLString.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLStringTokenizer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLUCS4Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLUni.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLUniDefs.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLUri.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLURL.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLUTF16Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLUTF8Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\XMLWin1252Transcoder.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOM.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMAttr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMCDATASection.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMCharacterData.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMComment.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMConfiguration.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMDocument.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMDocumentFragment.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMDocumentRange.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMDocumentTraversal.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMDocumentType.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMElement.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMEntity.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMEntityReference.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMError.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMErrorHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMImplementation.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMImplementationList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMImplementationLS.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMImplementationRegistry.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMImplementationSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLocator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSInput.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSOutput.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSParser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSParserFilter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSResourceResolver.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSSerializer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMLSSerializerFilter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMMemoryManager.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMNamedNodeMap.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMNode.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMNodeFilter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMNodeIterator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMNodeList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMNotation.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMProcessingInstruction.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMPSVITypeInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMRange.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMRangeException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMStringList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMText.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMTreeWalker.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMTypeInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMUserDataHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMXPathEvaluator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMXPathException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMXPathExpression.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMXPathNamespace.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMXPathNSResolver.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\DOMXPathResult.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\StDOMNode.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMAttrImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMAttrMapImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMAttrNSImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMCasts.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMCDATASectionImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMCharacterDataImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMChildNode.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMCommentImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMConfigurationImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMDeepNodeListImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMDeepNodeListPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMDeepNodeListPool.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMDocumentFragmentImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMDocumentImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMDocumentTypeImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMElementImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMElementNSImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMEntityImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMEntityReferenceImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMErrorImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMImplementationImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMImplementationListImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMLocatorImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNamedNodeMapImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNodeBase.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNodeIDMap.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNodeImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNodeIteratorImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNodeListImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNodeVector.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNormalizer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMNotationImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMParentNode.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMProcessingInstructionImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMRangeImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMStringListImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMStringPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMTextImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMTreeWalkerImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMTypeInfoImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMLSSerializerImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMLSInputImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMLSOutputImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMXPathExpressionImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMXPathNSResolverImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\DOMXPathResultImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\dom\impl\XSDElementNSImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\BinOutputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\LocalFileFormatTarget.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\LocalFileInputSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\MemBufFormatTarget.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\MemBufInputSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\MemoryManager.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\PSVIAttribute.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\PSVIAttributeList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\PSVIElement.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\PSVIHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\PSVIItem.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSAnnotation.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSAttributeDeclaration.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSAttributeGroupDefinition.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSAttributeUse.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSComplexTypeDefinition.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSConstants.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSElementDeclaration.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSFacet.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSIDCDefinition.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSModel.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSModelGroup.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSModelGroupDefinition.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSMultiValueFacet.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSNamedMap.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSNamedMap.c" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSNamespaceItem.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSNotationDeclaration.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSObject.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSParticle.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSSimpleTypeDefinition.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSTypeDefinition.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSValue.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\psvi\XSWildcard.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\StdInInputSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\StdOutFormatTarget.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\URLInputSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\ValidationContext.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\Wrapper4DOMLSInput.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\Wrapper4InputSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLAttDef.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLAttDefList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLAttr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLBuffer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLBufferMgr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLContentModel.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLDocumentHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLDTDDescription.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLElementDecl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLEntityDecl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLEntityHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLErrorCodes.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLErrorReporter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLFormatter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLGrammarDescription.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLGrammarPool.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLGrammarPoolImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLNotationDecl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLPScanToken.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLRecognizer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLRefInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLSchemaDescription.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\framework\XMLValidityCodes.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\BinFileOutputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\BinMemOutputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\CharTypeTables.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\DGXMLScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\ElemStack.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\EndOfEntityException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\IANAEncodings.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\IGXMLScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\MemoryManagerImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\ReaderMgr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\SGXMLScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\ValidationContextImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\VecAttributesImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\VecAttrListImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\WFXMLScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XMLInternalErrorHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XMLReader.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XMLScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XMLScannerResolver.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XProtoType.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XSAXMLScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XSerializable.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XSerializationException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XSerializeEngine.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XSObjectFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\internal\XTemplateSerializer.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\parsers\AbstractDOMParser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\parsers\DOMLSParserImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\parsers\SAX2XMLFilterImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\parsers\SAX2XMLReaderImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\parsers\SAXParser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\parsers\XercesDOMParser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\AttributeList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\DocumentHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\DTDHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\EntityResolver.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\ErrorHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\HandlerBase.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\InputSource.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\Locator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\Parser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\SAXException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax\SAXParseException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\Attributes.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\ContentHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\DeclHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\DefaultHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\LexicalHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\SAX2XMLFilter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\SAX2XMLReader.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\sax2\XMLReaderFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\AllContentModel.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMAny.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMBinaryOp.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMLeaf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMRepeatingLeaf.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMNode.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMStateSet.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\CMUnaryOp.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\ContentLeafNameTypeVector.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\ContentSpecNode.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\DFAContentModel.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\Grammar.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\GrammarResolver.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\MixedContentModel.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\common\SimpleContentModel.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\AbstractNumericFacetValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\AbstractNumericValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\AbstractStringValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\AnySimpleTypeDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\AnyURIDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\Base64BinaryDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\BooleanDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DatatypeValidatorFactory.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DateDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DateTimeDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DateTimeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DayDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DecimalDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DoubleDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\DurationDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\ENTITYDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\FloatDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\HexBinaryDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\IDDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\IDREFDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\InvalidDatatypeFacetException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\InvalidDatatypeValueException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\ListDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\MonthDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\MonthDayDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\NameDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\NCNameDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\NOTATIONDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\QNameDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\StringDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\TimeDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\UnionDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\XMLCanRepGroup.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\YearDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\datatype\YearMonthDatatypeValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DocTypeHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDAttDef.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDAttDefList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDElementDecl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDEntityDecl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDGrammar.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDScanner.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\DTDValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\DTD\XMLDTDDescriptionImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\ComplexTypeInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\GeneralAttributeCheck.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\FieldActivator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\FieldValueMap.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IC_Field.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IC_Key.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IC_KeyRef.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IC_Selector.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IC_Unique.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IdentityConstraint.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\IdentityConstraintHandler.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\ValueStore.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\ValueStoreCache.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\XercesXPath.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\XPathException.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\XPathMatcher.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\XPathMatcherStack.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\identity\XPathSymbols.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\NamespaceScope.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\PSVIDefs.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaAttDef.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaAttDefList.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaElementDecl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaGrammar.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaSymbols.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SchemaValidator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\SubstitutionGroupComparator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\TraverseSchema.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XercesAttGroupInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XercesElementWildcard.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XercesGroupInfo.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XMLSchemaDescriptionImpl.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XSDDOMParser.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XSDErrorReporter.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XSDLocator.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\validators\schema\XUtil.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\xinclude\XIncludeDOMDocumentProcessor.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\xinclude\XIncludeLocation.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\xinclude\XIncludeUtils.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NetAccessors\WinSock\WinSockNetAccessor.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NetAccessors\WinSock\BinHTTPURLInputStream.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\NetAccessors\BinHTTPInputStreamCommon.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\Transcoders\ICU\ICUTransService.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\MsgLoaders\InMemory\InMemMsgLoader.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\MsgLoaders\InMemory\XercesMessages_en_US.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\MutexManagers\StdMutexMgr.hpp" />
+    <None Include="E:\Temp\xerces-c-3.2.3\src\xercesc\util\FileManagers\WindowsFileMgr.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Temp\xerces-c-3.2.3\ZERO_CHECK.vcxproj">
+      <Project>{9CC4E508-2C96-3D88-B771-CE269EBE80F8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
